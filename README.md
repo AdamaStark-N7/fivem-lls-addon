@@ -45,7 +45,7 @@ If you want these settings to apply globally to any Lua project (similar to cfxl
         "workspace": {
           "checkThirdParty": "Ask",
           "userThirdParty": ["/home/dev/lua-addons"],
-          "workspace.library": ["/home/dev/fxserver/server-data/resources/ox_lib"]
+          "library": ["/home/dev/fxserver/server-data/resources/ox_lib"]
         },
       },
     },
