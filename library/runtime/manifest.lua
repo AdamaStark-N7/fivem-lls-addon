@@ -10,6 +10,7 @@
 
 ---@class CfxManifest
 ---@field fx_version fun(version: 'cerulean' | 'bodacious' | 'adamant'): CfxManifestChain
+---@field name fun(name: string): CfxManifestChain
 ---@field game fun(game: 'gta5' | 'rdr3' | 'common'): CfxManifestChain
 ---@field games fun(games: ('gta5' | 'rdr3' | 'common')[]): CfxManifestChain
 ---@field rdr3_warning fun(text: string): CfxManifestChain
